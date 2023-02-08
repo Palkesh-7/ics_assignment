@@ -6,6 +6,7 @@ import datetime
 
 def create_log_file(log_str):
     time = datetime.datetime.now()
+    time = time.strftime("%d/%m/%Y, %H:%M:%S")
     log = "Time {0} ---> {1}".format(time,log_str)
     with open("log_file.txt",'a+') as f:
         f.write(log + "\n")
