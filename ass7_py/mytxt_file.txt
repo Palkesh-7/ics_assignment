@@ -1,0 +1,1 @@
+Write a function to create simple text file with some text content.Write a function to add text content to any existing file.
